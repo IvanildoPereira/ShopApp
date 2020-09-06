@@ -4,7 +4,7 @@
     Project Portfolio 
 </h1>
 <h4 align="center">
-  A FullStack Project that allows the users simulate an E-commerce system.
+  A FullStack Project that allows the users simulate an E-commerce system, using ReactJS, NodeJS and Mysql or Postgre.
 </h4>
 
 
