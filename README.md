@@ -37,7 +37,7 @@
 
 ## :computer: Features
 
-- Authenticat System with JWT
+- Authentication System with JWT
 - Background Jobs with Redis
 - Comment System
 - Email System with SendGrid
