@@ -21,16 +21,16 @@
 
 <br>
 <p align="center">
-  <a href="https://shopapp2020-75c0b.web.app/" rel="nofollow">
+  <a href="https://shopapp2020-75c0b.web.app/" target = "_blank" rel="nofollow">
     <img alt="Live Demo on Firebase Hosting" src="./github/livedemo_button.png" style="max-width:100%;">
   </a>
-    <a href="https://shopapp2020.herokuapp.com/" rel="nofollow">
+    <a href="https://shopapp2020.herokuapp.com/"  target = "_blank" rel="nofollow">
     <img alt="Demo on Heroku" src="./github/demo_button.png" style="max-width:100%;">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://www.figma.com/file/BJDo8X1kqJZTwTQ1ct5wQB/Mini-E-Commerce?node-id=40%3A2" rel="nofollow">
+  <a href="https://www.figma.com/file/BJDo8X1kqJZTwTQ1ct5wQB/Mini-E-Commerce?node-id=40%3A2" target = "_blank" rel="nofollow">
     <img alt="Design of the project on figma" src="./github/figma_button.png" style="max-width:100%;">
   </a>
 </p>
