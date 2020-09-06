@@ -1,0 +1,11 @@
+footer.error_footer{
+    background-color: #fff;
+}
+
+footer.error_footer button{
+    width: 120px;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    background: #3070CE;
+}

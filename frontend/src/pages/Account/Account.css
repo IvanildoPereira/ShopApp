@@ -1,0 +1,66 @@
+.account{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+div.account div.user_account{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.account div.user_account img{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
+
+div.account div.user_account a{
+    color: #2D9F11;
+    border-bottom: #2D9F11 solid 1px;
+}
+.dashbord_account{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box_account{
+    display: flex;
+}
+
+.box_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    height: 180px;
+    width: 180px;
+    margin-right: 10px;
+    border: #2074A3 solid 1px;
+    border-radius: 10px;
+    color: #2074A3;
+}
+
+@media (max-width: 768px){
+    .account{
+        flex-direction: column;
+    }
+
+    div.account div.user_account{
+        width: 100%;
+    }
+
+    .box_account{
+        flex-direction: column;
+    }
+    .box_account{
+        width: 100%;
+    }
+    .box_item{
+        width: 100%;
+        margin: 10px 0;
+    }
+}

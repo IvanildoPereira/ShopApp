@@ -1,0 +1,34 @@
+div.card{
+    height: max-content;
+}
+div.product-img{
+    height: 150px;
+}
+
+div.product-card{
+    height: 110px;
+}
+
+div.product-img img{
+    height: 150px;
+    width: 100%;
+    object-fit: contain;
+}
+
+div.products-grid div.product-name{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+div.products-grid p{
+    margin: 5px 0;
+}
+
+div.products-grid span.product-price{
+    color: #2D9F11;
+}
+
+div.products-grid p.product-details span{
+    font-size: 12px;
+}
+

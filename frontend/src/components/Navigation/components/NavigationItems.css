@@ -1,0 +1,23 @@
+.nav_link{
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    
+}
+
+.nav_link li + li{
+    margin-left: 20px;
+}
+
+.nav_link li{
+    list-style-type: none;
+    font-size: 20px;
+    
+}
+
+.nav_link li a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+}
+

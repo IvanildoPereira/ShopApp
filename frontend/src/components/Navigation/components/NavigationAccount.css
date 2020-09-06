@@ -1,0 +1,59 @@
+.nav_account{
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    z-index: 99;
+}
+
+.nav_account a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+}
+
+
+.cart_qt{
+    position: relative;
+}
+.cartQt{
+    position: absolute;
+    top: -8px;
+    right: -3px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+.nav_icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.nav_icon img {
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    .nav_account{
+       position: fixed;
+       bottom: 0;
+       justify-content: space-around;
+       width: 100%;
+       left: 0;
+    }
+
+    .nav_icon{
+        margin: 10px 0;
+    }
+
+}

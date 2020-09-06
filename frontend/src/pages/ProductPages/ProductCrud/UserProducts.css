@@ -1,0 +1,19 @@
+a.create_product{
+    position: sticky;
+    font-size: 40px;
+    border-radius: 50%;
+    float: right;
+    bottom: 15px;
+    padding: 10px 20px;
+    background-color: #3070ce;
+    color: #fff;
+    margin-right: -40px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1024px){
+    a.create_product{
+        bottom: 75px;
+        margin-right: -15px;
+    }
+}

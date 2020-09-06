@@ -1,0 +1,148 @@
+/* .table_container{
+	background-color: #fff;
+} */
+
+table { 
+	width: 100%; 
+	border-collapse: collapse; 
+    margin:50px auto;
+	}
+
+/* Zebra striping
+tbody tr:nth-of-type(even) { 
+	background: #ccc; 
+	} */
+
+tbody tr td:nth-child(2){
+	text-align: left;
+}
+
+tbody tr td:nth-child(1){
+	width: 100px;
+}
+
+tbody tr td:last-child{
+	width: 188px;
+}
+
+th { 
+	background: #3070ce; 
+	color: white; 
+	font-weight: bold; 
+	font-size: 18px;
+	}
+
+tr{
+	border: 1px solid #ccc; 
+}
+
+td{
+	background-color: #fff;
+}
+
+td, th { 
+	padding: 10px; 
+	/* border: 1px solid #ccc;  */
+	text-align: center; 
+	font-size: 14px;
+	}
+
+td a.btn_edit{
+	background-color: green;
+	color: #fff;
+	padding: 5px 20px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+
+td button.btn_delete{
+	background-color: red;
+	color: #fff;
+	padding: 5px 20px;
+	margin-right: 10px;
+	border: none;
+	cursor: pointer;
+}
+
+td img{
+	width: 100px;
+	height: 100px;
+	object-fit: contain;
+}
+
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+    .table_container{
+        margin: 50px 20px;
+    }
+	table { 
+          width: 100%;
+	}
+
+	tbody tr td:nth-child(2){
+		text-align: center;
+	}
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+    
+    thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: none;}
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 2px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+		/* border: 1px solid #ccc;  */
+	}
+
+	tbody tr td:nth-child(1){
+		background-color: #3070ce;
+		color: #fff;
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	tbody tr td:last-child{
+		width: 100%;
+	}
+
+	tbody tr td:nth-child(1)::before{
+		color: #fff;
+	}
+
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		/* Label the data */
+		content: attr(data-column);
+
+		color: #000;
+		font-weight: bold;
+	}
+
+}

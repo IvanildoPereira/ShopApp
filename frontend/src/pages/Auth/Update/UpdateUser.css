@@ -1,0 +1,106 @@
+.update-user{
+	display: flex;
+	padding: 20px 0;
+    align-items: center;
+}
+
+.update-user .user_account{
+	width: 40%;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.update-user .user_account img{
+	width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
+
+.update-user .form-container form {
+	background-color: #FFFFFF;
+	display: flex;
+	
+	flex-direction: column;
+	height: 100%;
+	
+	
+}
+
+.checkbox_user{
+	display: flex;
+	align-items: center;
+	align-self: flex-end;
+
+}
+
+.checkbox_user input{
+	width: initial !important;
+	
+}
+
+.checkbox_user label{
+	font-size: 12px;
+	margin-left: 5px !important;
+}
+
+.update-user .form-container{
+	width: 60%;
+}
+
+.update-user .form-container form input{
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+}
+
+.update-user .form-container form label{
+    margin: 5px 0;
+}
+
+.save-user{
+	display: flex;
+	justify-content: center;
+}
+
+.save-user button{
+    border-radius: 20px;
+    margin: 10px 0;
+	border: 1px solid #3070CE;
+    background-color: #3070CE;
+    width: 200px;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;	
+}
+
+label#photo-user input{
+    display: none;
+}
+
+label#photo-user{
+	padding: 8px;
+	font-size: 12px;
+	background-color: #77A837;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+@media (max-width: 768px){
+	.update-user{
+		display: flex;
+		flex-direction: column;
+	}
+	.update-user .user_account{
+		width: 100%;
+	}
+	.update-user .form-container{
+		width: 100%;
+	}
+}

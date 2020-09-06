@@ -1,0 +1,34 @@
+.btn-simple {
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+    border: solid 1px #000;
+    
+    cursor: pointer;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.btn.btn-simple.white{
+    color: #000;
+    background-color: #fff;
+}
+
+.btn.btn-simple.green{
+    color: #fff;
+    background-color: green;
+}
+
+.btn-simple.white:hover{
+    background-color: gray;
+}
+
+.btn-simple.green:hover{
+    opacity: 0.8;
+}
+
+@media (max-width: 750px){
+    .btn-simple{
+        width: 100%;
+    }
+}

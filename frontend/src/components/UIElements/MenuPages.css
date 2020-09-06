@@ -1,0 +1,135 @@
+div.menuProduct_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 13px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin: 20px 0;
+    padding-right: 20px;
+}
+
+div.menuProduct_container select{
+    border: 1px solid #C4C4C4;
+    padding: 10px;
+    font-size: 16px;
+    color: #C4C4C4;
+    background-color: #fff;
+}
+
+div.menuProduct_container div.sort_products select{
+    margin-left: 5px;
+    width: 150px;
+}
+div.menuProduct_container div.sort_products span{
+    color: #C4C4C4;
+    font-weight: 400;
+}
+
+div.menuProduct_container div.perpage_products select{
+    margin-left: 5px;
+    width: 80px;
+}
+div.menuProduct_container div.perpage_products span{
+    color: #C4C4C4;
+    font-weight: 400;
+}
+
+div.products_search{
+    background-color: #3070CE;
+    border-radius: 4px 0px 0px 4px;
+    width: 250px;
+    height: 60px;
+    padding: 10px;
+}
+
+div.products_search input{
+    background-color: #4A82DA;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+div.products_search button{
+    border: none;
+    background-color: unset;
+    height: 20px;
+}
+
+div.products_search div.search_container{
+    background-color: #4A82DA;
+    display: flex;
+    align-content: center;
+    padding: 10px;
+}
+
+
+
+div.products_search div.search_container img{
+    width: 20px;
+    height: 20px;
+}
+
+
+div.products_search input::placeholder{
+    color: #fff;
+    opacity: 0.6;
+}
+
+div.products_page{
+    display: flex;
+}
+
+div.products_page div.actual{
+    border: 1px solid #C4C4C4;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+div.products_page div.total{
+    margin: 10px;
+}
+
+div.products_page button{
+    background-color: #fff;
+    border: none;
+}
+
+@media(max-width: 768px){
+    div.menuProduct_container{
+        flex-direction: column;
+        margin: 20px 20px;
+        justify-content: stretch;
+        padding: 0;
+    }
+    div.products_search{
+        width: 100%;
+        border-radius: 4px 4px 0 0;
+    }
+
+    div.products_search input{
+        width: 85%;
+    }
+
+    div.menuProduct_container div.perpage_products{
+        margin: 10px 0px;
+    }
+
+    div.menuProduct_container div.perpage_products select{
+        width: 220px;
+    }
+     
+    div.menuProduct_container div.sort_products{
+        margin: 10px 0px;
+    }
+
+    div.menuProduct_container div.sort_products select{
+        width: 220px;
+        margin-left: 14px;
+    }
+
+    div.products_page{
+        margin: 10px 0;
+    }
+}

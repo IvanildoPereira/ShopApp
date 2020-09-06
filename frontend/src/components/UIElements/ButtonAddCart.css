@@ -1,0 +1,38 @@
+.btn-addCart {
+    display: flex;
+    width: 50%;
+    padding: 5px;
+    flex-direction: row;
+    background-color: #3070ce;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.btn-addCart:hover{
+    opacity: 0.5;
+}
+
+
+.btn-addCart span{
+    font-size: 12px;
+}
+
+.btn-addCart img{
+    margin-right: 10px;
+    width: 20px;
+}
+
+
+@media (max-width: 750px){
+    .btn-addCart{
+        width: 100%;
+        margin: 8px 0;
+    }
+}
+
+
+

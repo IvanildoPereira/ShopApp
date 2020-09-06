@@ -1,0 +1,37 @@
+.form-container form {
+	background-color: #FFFFFF;
+	display: flex;
+	
+	flex-direction: column;
+	height: 100%;
+	
+	
+}
+
+.form-container form input {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+}
+
+.form-container form label{
+    margin: 5px 0;
+}
+
+.form-container form button {
+    border-radius: 20px;
+    margin: 10px 0;
+	border: 1px solid #3070CE;
+    background-color: #3070CE;
+    width: 200px;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    align-self: center;
+}

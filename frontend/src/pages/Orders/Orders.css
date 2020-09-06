@@ -1,0 +1,62 @@
+div.orders_grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
+
+div.orders_grid div.card{
+    height: max-content;
+}
+
+div.orders_grid div.order_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.orders_grid button.accordeon_order{
+    background-color: #fff;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+div.orders_grid div.order_header div.order_id{
+    background-color: #3070CE;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+div.orders_grid div.order_header div.order_date{
+    font-weight: 500;
+    font-size: 14px;
+    color: #C4C4C4;
+}
+
+div.orders_grid div.order_header div.order_date img{
+    margin-left: 10px;
+}
+
+div.orders_grid div.order_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.orders_grid div.order_footer div.order_price{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+div.orders_grid div.order_footer div.order_price span{
+    color: #2D9F11;
+}
+
+div.orders_grid div.order_footer button.order_invoice{
+    background-color: #2D9F11;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}

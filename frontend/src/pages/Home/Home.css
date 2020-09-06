@@ -1,0 +1,136 @@
+section#home_section{
+    height: 400px;
+}
+
+.background_img{
+    position: absolute;
+    left: 0;
+    top: 80px;
+    background-image: url("../../assets/background_section.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+section#home_section h1{
+    font-size: 48px;
+    margin-left: 0;
+    width: 38%;
+}
+
+section#home_section a{
+    display: inline-block;
+    text-align: center;
+    width: 230px;
+    background-color: #2D9F11;
+    border: none;
+    border-radius: 7px;
+    padding: 20px;
+    font-size: 14px;
+    color:#fff;
+}
+
+.sub_title{
+    font-weight: bold;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+
+
+section#products_home .products_scroll{
+    display: flex;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
+
+}
+
+section#products_home .products_scroll img{
+    height: 130px;
+    width: 100%;
+    object-fit: contain;
+}
+
+section#products_home .products_scroll .card{
+    flex: 0 0 auto;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section#products_home .products_scroll .card p.name{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+section#products_home .products_scroll .card p.price{
+    font-size: 12px;
+}
+
+section#products_home .products_scroll .card p.price span{
+    color: #2D9F11;
+}
+
+section#products_home .products_scroll .card a{
+    color: #fff;
+    background-color: #4A82DA;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    margin: 15px 15px 0 15px;
+}
+
+
+section#categories_home .categories_box{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    text-align: center;
+}
+
+section#categories_home .box{
+    background-color: #fff;
+    border: #C4C4C4 solid 1px;
+    padding: 20px;
+}
+
+section#categories_home .box img{
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+}
+
+section#categories_home a{
+    color: #000;
+}
+
+section#categories_home .box p {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+
+@media (max-width: 768px){
+    .background_img{
+        padding: 20px;
+    }
+    section#home_section h1{
+        width: 100%;
+    }
+    section#categories_home{
+        margin: 10px;
+    }
+    section#categories_home .box{
+        margin-bottom: 10px;
+    }
+
+    section#products_home .products_scroll .card{
+        margin: 10px;
+    }
+}

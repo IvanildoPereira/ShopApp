@@ -1,0 +1,30 @@
+header{
+    background: #fff;
+}
+
+header div.logo{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+header div.logo span{
+    color: #3070ce;
+    font-size: 36px;
+}
+
+header .header-flex{
+    display: flex;
+    height: 80px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+@media (max-width: 750px){
+    header .header-flex{
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+}

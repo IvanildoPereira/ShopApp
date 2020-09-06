@@ -1,0 +1,20 @@
+footer{
+    height: 80px;
+    width: 100%;
+    background-color: #3070CE;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer>p>span {
+    color: #DF1818;
+}
+
+@media (max-width: 1024px){
+    footer{
+        display: none;
+    }
+}

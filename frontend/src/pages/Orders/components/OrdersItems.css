@@ -1,0 +1,49 @@
+div.accordion_order{
+    overflow: hidden;
+    transition: max-height 0.3s;
+}
+
+div.product_order{
+    display: flex;
+    margin: 10px;
+}
+
+div.product_order img{
+    height: 70px;
+    width: 60px;
+    object-fit: contain;
+
+}
+
+div.product_order div.order_info{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 10px;
+}
+
+div.product_order div.order_info p.name{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+div.product_order div.order_info p.id{
+    font-size: 12px;
+}
+
+div.product_order div.order_info p.quantity{
+    font-size: 12px;
+}
+
+div.product_order div.product_price{
+    align-self: center;
+    margin-right: 10px;
+    color: #2D9F11;
+    font-size: 14px;
+}
+
+div.orders_grid .line{
+    margin: 10px;
+    height: 1px;
+    border-bottom: 1px solid #C4C4C4;
+}
