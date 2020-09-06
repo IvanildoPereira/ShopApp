@@ -85,7 +85,7 @@ From your command line:
 
 ```bash
 # Clone this repository
-$ git clone 
+$ git clone https://github.com/IvanildoPereira/ShopApp.git
 
 # Go into the repository
 $ cd ShopApp
