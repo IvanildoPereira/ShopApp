@@ -95,7 +95,7 @@ $ cd backend
 $ npm install
 
 # Run migrations to your database
-$ npx sequelize-cli db:migrate
+$ npx sequelize db:migrate
 
 # Run the backend server on development environment
 $ npm run dev
